@@ -10,11 +10,11 @@
 
 - **Link:** https://github.com/eightBEC/fastapi-ml-skeleton
 - **Readme original:** [README.md](https://github.com/eightBEC/fastapi-ml-skeleton/blob/main/README.md)
-- **Projeto:** *FastAPI Model Server Skeleton* — esqueleto de aplicação para servir modelos de Machine Learning como API REST, de autoria de eightBEC. Licença Apache 2.0, 604 estrelas. Inclui um modelo de regressão de exemplo (previsão de preço de imóveis) persistido via `joblib`/scikit-learn e carregado **em memória** na inicialização do servidor — **não há nenhum banco de dados envolvido**, o que torna este repositório um bom candidato para uma migração de versão "pura", sem a complexidade adicional de estado persistido externamente.
+- **Projeto:** *FastAPI Model Server Skeleton* — esqueleto de aplicação para servir modelos de Machine Learning como API REST, de autoria de eightBEC. Licença Apache 2.0, 604 estrelas. Inclui um modelo de regressão de exemplo (previsão de preço de imóveis) persistido via `joblib`/scikit-learn e carregado **em memória** na inicialização do servidor, o que torna este repositório um bom candidato para uma migração.
 
 ### Cenário Atual
 
-O próprio changelog do projeto documenta que a versão vigente (`v1.1.0`, publicada em 28/12/2023) já foi fruto de uma migração anterior ("Update to Python 3.11, FastAPI 0.108.0, Pydantic 2.x, Poetry"). É esse estado — o mais recente disponível no repositório — que serve de ponto de partida para a nova rodada de upgrade proposta aqui:
+O próprio changelog do projeto documenta que a versão vigente (`v1.1.0`, publicada em 28/12/2023) já foi fruto de uma migração anterior ("Update to Python 3.11, FastAPI 0.108.0, Pydantic 2.x, Poetry"). É esse estado que serve de ponto de partida para a nova rodada de upgrade proposta aqui:
 
 | Componente | Situação atual (`pyproject.toml`, branch `main`) |
 |---|---|
